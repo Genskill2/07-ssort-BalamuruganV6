@@ -21,3 +21,4 @@ void ssort(int ar[], int n)
        swap_max(ar, n, i);
     }
 }
+
