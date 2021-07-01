@@ -14,11 +14,11 @@ void swap_max(int a[], int n, int p)
      a[p1] = t;
 }
 
-void ssort(int ar[], int n)
+void ssort(int ar[], int ln)
 {
-    for( int i=0; i<n; i++)
+    for( int i=0; i<ln; i++)
     {
-       swap_max(ar, n, i);
+       swap_max(ar, ln, i);
     }
 }
 
