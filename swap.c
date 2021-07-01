@@ -1,3 +1,6 @@
+#include<stdio.h>
+#include<cs50.h>
+
 void swap_max(int a[], int n, int p)
 {
     int p1,big = a[p];
