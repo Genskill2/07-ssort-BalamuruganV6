@@ -1,12 +1,13 @@
-#include<stdio.h>
-#include<cs50.h>
-
 void swap_max(int a[], int n, int p)
 {
-    int p1,big = a[p];
-    for( int i=p; i<n; i++)
+    int p1, big = a[p];
+    for( int i=n-1; i>=p; i--)
     {
-        if( big < a[i])
+        if( big > a[i])
+        {
+            
+        }
+        else
         {
             p1 = i;
             big = a[i];
